@@ -1,0 +1,16 @@
+<html>
+<head>
+<title>DEMO of Deep Learning in Predix Cloud - Using TensorFlow on CloudFoundry</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p>TensorFlow demo on Predix. Input the image URL which has to be analyzed. We will use a SSD model (Single-shot Detector) - which will identify specific objects pre-trained on COCO dataset to classifiy detected objects in 90 categories. </p>
+    <form method=GET action='/imgurl'>
+	<div class="myform">
+      <p>Enter the image URL: 
+		  <input type="text" name="imgurl" value="http://s.hswstatic.com/gif/airplanes-work-1.jpg" style="width:800px">
+          <input type="submit"  class="button" value="Load URL"></p>
+	</div>
+    </form>
+</body>
+</html>
